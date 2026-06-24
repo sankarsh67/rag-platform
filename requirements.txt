@@ -1,0 +1,26 @@
+Django>=5.0,<5.1
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+psycopg2-binary>=2.9
+celery>=5.4
+redis>=5.0
+django-celery-results>=2.5
+gunicorn>=22.0
+python-dotenv>=1.0
+
+# Document processing
+pypdf>=4.2
+unstructured>=0.14
+pdfminer.six==20231228
+pypdf>=4.2
+
+# AI / RAG
+langchain>=0.2
+langchain-text-splitters>=0.2
+langchain-google-genai>=1.0
+
+# Vector DB clients (uncomment whichever you use)
+qdrant-client>=1.18
+# pinecone>=9.0  # NOTE: package is "pinecone", NOT the deprecated "pinecone-client"
+
+django-filter>=24.2

@@ -1,0 +1,40 @@
+# --- Python ---
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Django ---
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Docker ---
+*.pid
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Logs ---
+*.log
+
+# --- Misc local artifacts ---
+*.bak
+.cache/LangChain_Day1_Day2_StudyGuide (1).pdf
